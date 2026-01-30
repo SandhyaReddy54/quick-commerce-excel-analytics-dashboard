@@ -1,7 +1,9 @@
 # 📦 Quick-Commerce Operations Dashboard (Excel)
 ## 📌 Project Overview
 
-This project is an exploratory operational analytics case study built using Microsoft Excel( using Power Query, Pivot Tables, and the Data Model), focusing on understanding revenue drivers, demand patterns, payment success, and customer experience in a quick-commerce (instant grocery delivery) context.
+This project presents an end-to-end exploratory analytics case study built entirely in Microsoft Excel, focused on analyzing quick-commerce operations such as revenue performance, order behavior, payment success, and customer experience.
+
+Using Power Query, the Excel Data Model, Pivot Tables, and interactive dashboards, raw multi-table transactional data was transformed into actionable operational insights to support data-driven decision-making.
 
 ## 🎯 Objectives
 
@@ -11,16 +13,15 @@ This project is an exploratory operational analytics case study built using Micr
 * Perform exploratory analysis using Pivot Tables
 * Create an interactive executive dashboard using Pivot Charts and slicers
 * Derive actionable insights related to operations and customer experience
-  
-## 🛠️ Tools & Techniques Used
 
-#### Microsoft Excel
-* Power Query (data cleaning & transformation)
-* Data Model & relationships
-* Pivot Tables & Pivot Charts
-* DAX Measures (for KPIs)
-* Slicers & Timelines
-* KPI cards
+## 🎯 Business Objectives
+* Understand overall revenue and order performance
+* Identify key revenue drivers across product categories and regions
+* Analyze order demand patterns by day and time
+* Evaluate payment success rates across transaction modes
+* Assess customer experience using rating distributions
+* Design an executive-style operational dashboard in Excel
+
 
 ## 📂 Dataset Description
 
@@ -34,14 +35,17 @@ The dataset simulates a quick-commerce platform with the following entities:
 
 ## 🧹 Data Cleaning & Preparation
 #### Performed using Power Query:
-* Standardized column names and data types
+* cleaned and Standardized column names and data types
 * Removed orphan and invalid records (e.g., ratings without orders)
-* Created derived fields:
+#### Created derived fields:
 * Order Day
 * Monthly buckets
 * Hourly divisions
 * Validated relationships across tables
 * Loaded clean tables into the Excel Data Model
+#### Data Model
+* Defined relationships across orders, products, customers, transactions, and ratings
+* Enabled cross-table analysis using Pivot Tables and measures
 
 ## 📊 Key KPIs
 
@@ -73,8 +77,45 @@ The dashboard highlights the following core KPIs:
 * Hourly Division
 #### Clean, executive-style layout using:
 * Shape-based KPI cards
-* Minimal color palette
+* Pivot Charts 
 * Focused, non-redundant visuals
+
+## 🛠️ Tools & Technologies Used
+* Microsoft Excel
+* Power Query
+* Data Model
+* Pivot Tables & Pivot Charts
+* DAX Measures
+* Slicers & Timelines
+
+## 🚀 Learning Outcomes
+
+This project strengthened my ability to:
+* Perform structured data cleaning using Power Query
+* Build relational data models in Excel
+* Design meaningful KPIs for operational analysis
+* Create interactive dashboards using Pivot Tables
+* Translate exploratory analysis into business-relevant insights
+
+## 📬 Author
+musan sandhya
+Aspiring Data Analyst | Excel | SQL | Power BI
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
