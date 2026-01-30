@@ -1,7 +1,7 @@
-# 📦 Quick-Commerce Operations Dashboard (Excel Case Study)
+# 📦 Quick-Commerce Operations Dashboard (Excel)
 ## 📌 Project Overview
 
-This project is an exploratory operational analytics case study built using Microsoft Excel, focusing on understanding revenue drivers, demand patterns, payment success, and customer experience in a quick-commerce (instant grocery delivery) context.
+This project is an exploratory operational analytics case study built using Microsoft Excel( using Power Query, Pivot Tables, and the Data Model), focusing on understanding revenue drivers, demand patterns, payment success, and customer experience in a quick-commerce (instant grocery delivery) context.
 
 ## 🎯 Objectives
 
@@ -52,20 +52,29 @@ The dashboard highlights the following core KPIs:
 * Order Completion Rate
 
 ## 📈 Dashboard Analysis & Insights
-🔹 Revenue & Demand Trends
+#### 🔹 Revenue & Demand Trends
 * Monthly revenue shows moderate variation across the available period
 * Order volume is relatively stable across weekdays, with mid-week peaks
-🔹 Revenue Drivers
+#### 🔹 Revenue Drivers
 * Personal Care and Snacks categories show higher AOV
 * Revenue is concentrated in a few key states, indicating regional demand clustering
-🔹 Payments & Operations
+#### 🔹 Payments & Operations
 * Digital payment methods (UPI, Cards) show higher success rates than COD
 * Payment mode selection impacts order completion
-🔹 Customer Experience
+#### 🔹 Customer Experience
 * Average ratings appear healthy, but distribution analysis shows a meaningful share of low ratings
 * Rating distribution provides better insight than averages alone
 
+## 📊 Dashboard Features
 
+#### Interactive slicers for:
+* Date (Year / Quarter / Month)
+* State
+* Hourly Division
+#### Clean, executive-style layout using:
+* Shape-based KPI cards
+* Minimal color palette
+* Focused, non-redundant visuals
 
 
 
