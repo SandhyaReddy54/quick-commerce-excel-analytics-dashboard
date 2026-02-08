@@ -85,7 +85,7 @@ The dashboard highlights the following core KPIs:
 * Power Query
 * Data Model
 * Pivot Tables & Pivot Charts
-* DAX Measures
+* Measures using the Excel Data Model (DAX)
 * Slicers & Timelines
 
 ## 🚀 Learning Outcomes
